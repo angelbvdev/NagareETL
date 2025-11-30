@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+# Ignorar los datos generados, pero mantener la estructura de carpetas
+app/data_lake/bronze/*
+app/data_lake/silver/*
+app/data_lake/gold/*
+!app/data_lake/bronze/.gitkeep
+!app/data_lake/silver/.gitkeep
+!app/data_lake/gold/.gitkeep
